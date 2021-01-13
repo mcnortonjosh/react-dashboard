@@ -33,112 +33,146 @@ const _nav =  [
     _children: ['Components']
   },
   {
+    _tag: 'CSidebarNavItem',
+    name: 'Patient Information',
+    to: '/charts',
+    icon: 'cil-calculator'
+  },
+  {
     _tag: 'CSidebarNavDropdown',
-    name: 'Base',
+    name: 'Developmental/Medical History ',
     route: '/base',
     icon: 'cil-puzzle',
     _children: [
       {
         _tag: 'CSidebarNavItem',
-        name: 'Breadcrumb',
+        name: 'Fetal Development',
         to: '/base/breadcrumbs',
       },
       {
         _tag: 'CSidebarNavItem',
-        name: 'Cards',
+        name: 'Prenatal Care/Drug Exposure',
         to: '/base/cards',
       },
       {
         _tag: 'CSidebarNavItem',
-        name: 'Carousel',
+        name: 'Audio/Visual Status',
         to: '/base/carousels',
       },
       {
         _tag: 'CSidebarNavItem',
-        name: 'Collapse',
+        name: 'Developmental Milestones',
         to: '/base/collapses',
       },
       {
         _tag: 'CSidebarNavItem',
-        name: 'Forms',
+        name: 'Speech Development',
         to: '/base/forms',
       },
       {
         _tag: 'CSidebarNavItem',
-        name: 'Jumbotron',
+        name: 'Motor Development',
         to: '/base/jumbotrons',
       },
       {
         _tag: 'CSidebarNavItem',
-        name: 'List group',
+        name: 'Toileting Development',
         to: '/base/list-groups',
       },
       {
         _tag: 'CSidebarNavItem',
-        name: 'Navs',
+        name: 'Skills Regression',
         to: '/base/navs',
       },
       {
         _tag: 'CSidebarNavItem',
-        name: 'Navbars',
+        name: 'Current Motor Skills',
         to: '/base/navbars',
       },
       {
         _tag: 'CSidebarNavItem',
-        name: 'Pagination',
+        name: 'Chronic Physical and Mental Health Issues',
         to: '/base/paginations',
       },
       {
         _tag: 'CSidebarNavItem',
-        name: 'Popovers',
+        name: 'Hospitalization',
         to: '/base/popovers',
       },
       {
         _tag: 'CSidebarNavItem',
-        name: 'Progress',
+        name: 'Seizures',
         to: '/base/progress-bar',
       },
       {
         _tag: 'CSidebarNavItem',
-        name: 'Switches',
+        name: 'Head Injuries/Concussions',
         to: '/base/switches',
       },
       {
         _tag: 'CSidebarNavItem',
-        name: 'Tables',
+        name: 'Family Mental Health History',
         to: '/base/tables',
       },
       {
         _tag: 'CSidebarNavItem',
-        name: 'Tabs',
+        name: 'Current and Previous Services and Evaluations',
         to: '/base/tabs',
       },
       {
         _tag: 'CSidebarNavItem',
-        name: 'Tooltips',
+        name: 'Medication',
         to: '/base/tooltips',
       },
     ],
   },
   {
     _tag: 'CSidebarNavDropdown',
-    name: 'Buttons',
+    name: 'Educational History',
+    route: '/notifications',
+    icon: 'cil-bell',
+    _children: [
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Schools Attended',
+        to: '/notifications/alerts',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Retention',
+        to: '/notifications/badges',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Grade Changes',
+        to: '/notifications/modals',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Academic Achievement',
+        to: '/notifications/toaster'
+      }
+    ]
+  },
+  {
+    _tag: 'CSidebarNavDropdown',
+    name: 'Social and Behavioral History',
     route: '/buttons',
     icon: 'cil-cursor',
     _children: [
       {
         _tag: 'CSidebarNavItem',
-        name: 'Buttons',
+        name: 'Town and State',
         to: '/buttons/buttons',
       },
       {
         _tag: 'CSidebarNavItem',
-        name: 'Brand buttons',
+        name: 'Attachment',
         to: '/buttons/brand-buttons',
       },
       {
         _tag: 'CSidebarNavItem',
-        name: 'Buttons groups',
+        name: 'Immediate Family Live-In Situation',
         to: '/buttons/button-groups',
       },
       {
@@ -149,14 +183,8 @@ const _nav =  [
     ],
   },
   {
-    _tag: 'CSidebarNavItem',
-    name: 'Charts',
-    to: '/charts',
-    icon: 'cil-chart-pie'
-  },
-  {
     _tag: 'CSidebarNavDropdown',
-    name: 'Icons',
+    name: 'Safety and Risk History',
     route: '/icons',
     icon: 'cil-star',
     _children: [
@@ -180,34 +208,6 @@ const _nav =  [
         to: '/icons/brands',
       },
     ],
-  },
-  {
-    _tag: 'CSidebarNavDropdown',
-    name: 'Notifications',
-    route: '/notifications',
-    icon: 'cil-bell',
-    _children: [
-      {
-        _tag: 'CSidebarNavItem',
-        name: 'Alerts',
-        to: '/notifications/alerts',
-      },
-      {
-        _tag: 'CSidebarNavItem',
-        name: 'Badges',
-        to: '/notifications/badges',
-      },
-      {
-        _tag: 'CSidebarNavItem',
-        name: 'Modal',
-        to: '/notifications/modals',
-      },
-      {
-        _tag: 'CSidebarNavItem',
-        name: 'Toaster',
-        to: '/notifications/toaster'
-      }
-    ]
   },
   {
     _tag: 'CSidebarNavItem',

@@ -21,7 +21,7 @@ const Charts = () => {
     <CCardGroup columns className = "cols-2" >
       <CCard>
         <CCardHeader>
-          Bar Chart
+          General Patient Information
           <DocsLink href="http://www.chartjs.org"/>
         </CCardHeader>
         <CCardBody>
@@ -45,7 +45,7 @@ const Charts = () => {
 
       <CCard>
         <CCardHeader>
-          Doughnut Chart
+          Guardian Information
         </CCardHeader>
         <CCardBody>
           <CChartDoughnut
@@ -72,7 +72,7 @@ const Charts = () => {
 
       <CCard>
         <CCardHeader>
-          Line Chart
+          Evaluation Information
         </CCardHeader>
         <CCardBody>
           <CChartLine
